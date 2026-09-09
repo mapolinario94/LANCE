@@ -1,0 +1,9 @@
+# Dependencies for the LANCE continual-learning experiments.
+# These are heavier than the fine-tuning experiments (avalanche + its stack).
+torch>=2.0            # tested: 2.2.1+cu118
+torchvision>=0.15    # tested: 0.17.1+cu118
+avalanche-lib==0.5.0 # continual-learning benchmarks/datasets/metrics (API-pinned)
+numpy
+scikit-learn         # dataset shuffling in the CIFAR-100 / 5-Datasets loaders
+Pillow
+wandb                # experiment logging
