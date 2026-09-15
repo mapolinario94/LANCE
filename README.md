@@ -162,10 +162,14 @@ released under the MIT License. The corresponding license notice is retained in
 If you find this code useful, please cite our paper:
 
 ```bibtex
-@article{apolinario2025lance,
-  title={Lance: Low rank activation compression for efficient on-device continual learning},
-  author={Apolinario, Marco Paul E and Roy, Kaushik},
-  journal={arXiv preprint arXiv:2509.21617},
-  year={2025}
+@InProceedings{10.1007/978-3-032-37271-0_20,
+author="Apolinario, Marco P. E. and Roy, Kaushik",
+title="LANCE: Low Rank Activation Compression for Efficient On-Device Continual Learning",
+booktitle="Computer Vision -- ECCV 2026",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="364--381",
+isbn="978-3-032-37271-0"
 }
 ```
